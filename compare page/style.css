@@ -1,0 +1,115 @@
+.info{
+   
+    color:white;
+    padding-top:50px;
+    
+     
+     
+  
+  
+    
+  }
+  .form{
+    color: white;
+  
+    
+  }
+  input{
+    border-radius: 50px;
+  }
+  .line{
+    padding-top: 50px;
+    
+  }
+  
+  
+  .inner{
+  overflow: hidden;
+  }
+  .inner img{
+  transition: all 1.5 ease;
+  }
+  .inner:hover img{
+   transform: scale(1.2);
+   
+  }
+  .ani{
+  margin-top: 0px;
+  }
+  .first:hover{
+      background:rgb(193, 235, 232)  ;
+  }
+  .second:hover{
+  background-color:  rgb(253, 244, 226);
+  }
+  .third:hover{
+  background-color:  rgb(220, 243, 242);
+   }
+  .five:hover{
+      background-color:  rgb(220, 243, 242);
+       }
+       .four:hover{
+          background-color: rgb(227, 214, 237);
+           }
+           .six:hover{
+              background-color:   rgb(114, 126, 138);
+               }
+               h1{
+                  /* border-bottom:1px solid black ; */
+                  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+               }
+               /* h1:hover{
+                   background-color: gray;
+                   color: white;
+               } */
+  
+               h2{
+                  font-family: 'Indie Flower', cursive;
+              
+                  color: white;
+              }
+  .our-treatment-heading{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    display: inline-block;
+  margin: 1rem 0rem 2rem 0rem;  
+  }
+  .navbar-brand{
+    color: white;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .navbar-brand:hover{
+    color:white;
+  }
+  .navbar-toggler{
+    background-color:#2C5364;
+  }
+  .navbar:hover{
+   
+    
+  }
+  .navbar-nav{
+  padding-left: auto;
+  font-size: 14px;    
+  }
+  .nav-item{
+  color: white;
+  margin-left:2px ;
+   
+  }
+  .nav-link:hover{
+  color:white;
+  
+  
+  }
+  .dropdown-item{
+  color:black;
+  background-color:dimgray;
+  }
+  .dropdown-item:hover{
+  color:white;
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  

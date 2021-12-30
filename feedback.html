@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+<!-- Fonts family -->
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<!-- Fonts family -->
+
+
+
+
+   <!-- aos animation  -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <!-- aos animation  -->
+  <!-- box-icon -->
+<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+<!-- box-icon -->
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+<link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+<link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+
+  <title>FeedBack Form</title>
+
+
+  <style>
+
+
+body{
+  box-sizing: border-box;
+    font-family: monospace;
+ 
+
+}
+.section-feed h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+  color: #2C5364;
+
+}
+
+ 
+
+
+
+.services .icon-box {
+  padding: 60px 30px;
+  transition: all ease-in-out 0.3s;
+  background: #fefefe;
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+  /*  */
+  border-bottom: 5px solid #fff;
+}
+
+.services .icon-box .icon {
+  width: 104px;
+  height: 104px;
+  background: #2C5364;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: ease-in-out 0.3s;
+  color: #fff;
+}
+
+ .icon i {
+  font-size: 58px;
+}
+
+ 
+
+ 
+
+.feed-para{
+
+
+  font-size: 15px;
+}
+
+ 
+.navbar-brand{
+  color: white;
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navbar-brand:hover{
+  color:white;
+}
+.navbar-toggler{
+  background-color:#2C5364;
+}
+ 
+.navbar-nav{
+padding-left: auto;
+font-size: 14px;    
+}
+.nav-item{
+color: white;
+margin-left:2px ;
+ 
+}
+.nav-link:hover{
+color:white;
+
+
+}
+.dropdown-item{
+color:black;
+background-color:dimgray;
+}
+.dropdown-item:hover{
+color:white;
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+  .btn-learn-more , .btn-design {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: #2C5364;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid #2C5364;
+  
+}
+.btn-design:hover{
+  background:#2C5364;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+ .btn-learn-more:hover {
+  background-color: #2C5364 ;
+  color: #fff;
+  text-decoration: none;
+}
+ 
+.icons-ratings i{
+
+color: #eeeeee;
+
+padding-left: 10px;
+font-size: 35px;
+}
+
+.icons-ratings i:hover{
+  color: #2C5364 ;
+
+
+}
+
+
+
+
+
+
+
+ 
+.p1{
+font-family:'Times New Roman', Times, serif ;
+text-align: center;
+padding: 50px ;
+padding-top: 0px;
+ color: #2C5364 ;
+}
+.p2{
+  font-family: 'Merriweather', serif;
+  color: #2C5364;
+}
+.my_h6_heading{
+  color: #c3c3c3 !important;
+}
+  </style>
+</head>
+
+<body>
+  <nav style="font-family: monospace; background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  " class="navbar fixed-top navbar-expand-lg navbar-dark  ">
+    <a class="navbar-brand" href="#">HAIR CARE |<img src="img/log-removebg-preview.png" width="80px" height="50px"
+        alt="" style="filter: invert(1);"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Treatments
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="treatment/hairloss-treatment.html">Hair loss</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="treatment/graying-treatment.html">Graying</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="treatment/growth-treatment.html">Growth related</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="treatment/premature-baldness-treatment.html">Premature baldness</a>
+
+
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"  id="navbarDropdowntwo"
+            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Equipments
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdowntwo">
+            <a class="dropdown-item" href="equipment/equipment-1.html">Dryers</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="equipment/equiment-2.html">Straightners</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="equipment/equipment-3.html">Spray bottles</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="equipment/equipment-4.html">Steamers</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="equipment/equipment-5.html">Massagers</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="equipment/equipment-6.html">Spa caps</a>
+
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"  id="navbarDropdownthree" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            products
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownthree">
+            <a class="dropdown-item" href="products/product-one.html">Hair cream</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="products/product-two.html">Shampoo</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="products/product-three.html">Conditioners</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="products/product-four.html">Masks</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="products/product-five.html">Serums</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="products/product-six.html">Hairsprays</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="products/product-seven.html">Various hair oils</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownfour" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Gallery
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownfour">
+            <a class="dropdown-item" href="gallery.html">gallery</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="compare page/compare.html">comparison</a>
+
+          </div>
+        </li>
+
+        <li class="nav-item active dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownfive" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Information
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownfive">
+            <a class="dropdown-item" href="about.us.html">About Us</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="contact/contact.html">Contact Us</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="feedback.html">Feedback</a>
+
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+  </nav>
+
+
+  <section id="services" class="services pt-5 polo">
+    <div class="container">
+
+      <div class=" p2 section-feed">
+        <h2>Feedback</h2>
+        <p class="p1">At the Story of <span style="font-size: 20px; color: #2C5364;">Hair Care</span> we are committed to delivering more than you expect.
+Because your comments & observations are important to us we’d appreciate you taking a moment to fill out this brief survey.
+Your suggestions help us to provide the very best in way.! </p>
+      </div>
+
+      <div class="row icon-box">
+        <div class="col-lg-4 col-md-6 d-flex justify-content-center p-0 border-right">
+          <div class="card-box p-4">
+
+
+
+            <div class="icon m-auto"><i class="bi bi-person"></i></div>
+            <div class="feed-head text-center  pt-5"><h2 class=" p2 abper-112-title">Website Ratings</h2></div>
+            <div class="p1 feed-para text-center  py-4">You can write reviews for places you've visited</div><br><br>
+            <div class="feed-button pt-4"><a href="#" class="btn-learn-more"  data-toggle="modal" data-target="#exampleModalCeter"> Submits Ratings</a></div>
+           </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0 p-0 border-right">
+          <div class="card-box p-4 ">
+
+
+
+            <div class="icon m-auto"><i class="bi bi-chat-left-text"></i></div>
+            <div class="feed-head text-center   pt-5"><h2 class=" p2 abper-112-title">Comments</h2></div>
+            <div class=" p1 feed-para text-center py-4">You can write comments for places you've visited</div><br><br>
+            <div class="feed-button pt-4"><a href="#" class="btn-learn-more" data-toggle="modal" data-target="#exampleModalCenter">Submits Complaints</a></div>
+           </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0 p-0 ">
+          <div class="card-box p-4">
+
+
+
+         
+            <div class="icon m-auto"><i class="bi bi-person"></i></div>
+            <div class="feed-head text-center   pt-4"><h2 class=" p2 abper-112-title">Get in touch</h2></div>
+            <div class=" p1 feed-para text-center py-4 ">Email us with any question or inquiries or call + 00 222 44 5678.we would be to answer your question.</div>
+            <div class="feed-button pt-4"><a href="#" class="btn-learn-more "  data-toggle="modal" data-target="#exampleModalCeter">Submits Comments</a></div>
+           </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+    
+
+  </section><!-- End Services Section -->
+
+
+
+           <!-- MOdal -->
+
+ <Section class="Section-Modals">
+
+
+
+
+
+<div class="modal fade" id="exampleModalCeter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+     
+      <div class="modal-body text-center py-5 px-5">
+       <h3>How satisfied were you with your website experience?</h3>
+
+
+
+
+       <div class="icons-ratings "><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+
+
+
+</Section>
+
+
+
+
+
+<Section class="Section-Modals">
+
+
+
+
+
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+       
+        <div class="modal-body text-center py-5 px-">
+          <form class="px-5">
+            <div class="section-feed"><h2>Comments</h2></div>
+            <div class="form-row pb-2">
+              <div class="col-sm-12 col-md-6">
+                <label for="validationCustom01" id="email"> </label>
+                <input type="text" class="form-control" placeholder="First name" required id="name">
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <label for="exampleInputEmail1" id="email"></label>
+                
+                <input type="email" class="form-control" id="em"  placeholder="Enter email" required>
+               
+              </div>
+              
+            </div>
+            <div class="form-group my-4 ">
+              
+              <input type="text" class="form-control" id="subject" placeholder="Address" >
+            </div>
+            <div class="form-group mb-4">
+              
+              <textarea class="form-control" id="message" rows="4" placeholder="Message"></textarea>
+            </div>
+            <button type="button" name="send"  value="" onclick="check();" class=" px-5 py-3 btn-design">Submits </button>
+          </form>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  </Section>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+                <!--Start Footer -->
+
+
+
+
+  <footer style="font-family: monospace;  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  " class="text-center text-lg-start bg-dark text-muted mt-4">
+    
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+     
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+       
+    </section>
+   
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        
+        <div class="row mt-3">
+          
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+           
+            <h6 class="text-uppercase fw-bold mb-2 my_h6_heading">
+              <i class="fas fa-gem me-3"></i>HAIR CARE
+            </h6>
+            <p>
+              Hair care is an overall term for hygiene and cosmetology involving the hair which grows from the human
+              scalp, and to a lesser extent facial, pubic and other body hair.
+            </p>
+          </div>
+         
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            
+            <h6 class="text-uppercase fw-bold mb-4 my_h6_heading">
+              Products
+            </h6>
+            <p>
+              <a href="products/product-five.html" class="text-reset">Serum</a>
+            </p>
+            <p>
+              <a href="products/product-four.html" class="text-reset">Mask</a>
+            </p>
+            <p>
+              <a href="products/product-one.html" class="text-reset">Hair Careem</a>
+            </p>
+            <p>
+              <a href="products/product-seven.html" class="text-reset">Hair Oil</a>
+            </p>
+          </div>
+          
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          
+            <h6 class="text-uppercase fw-bold mb-4 my_h6_heading">
+              Useful links
+            </h6>
+            <p>
+              <a href="equipment/equipment-one.html" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="about.us.html" class="text-reset" >Orders</a>
+            </p>
+            <p>
+              <a href="contact/contact.html" class="text-reset">Help</a>
+            </p>
+          </div>
+           
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+             
+            <h6 class="text-uppercase fw-bold mb-4 my_h6_heading">
+              Contact
+            </h6>
+            <p><i class="fas fa-home me-3"></i>main national highway sadar</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              haircare123@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i>+ 92 318 ## ## ###</p>
+          </div>
+         
+        </div>
+       
+      </div>
+    </section>
+    
+    <div class="text-center p-4 " style="background-color: rgba(0, 0, 0, 0.392);">
+       <span class="my_h6_heading">© 2021 Copyright:</span>
+      <a class="text-muted fw-bold  my_h6_heading" href="index.html"> HAIR CARE</a>
+    </div>
+    
+  </footer>
+
+
+
+  
+  <!--End Footer -->
+
+
+
+
+
+
+       <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+       <script>
+        function check() {
+          var a = document.getElementById("name").value;
+          var b = document.getElementById("em").value;
+          var c = document.getElementById("subject").value;
+          var d = document.getElementById("message").value;
+          // Reggex For Email
+          var vemail = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+          // Reggex For Name
+          var vname = /^([A-Za-z_\-\.]{3,13})$/;
+          var subject = /^[A-Za-z]+$/;
+      
+      
+          if (a == "") {
+            swal("Error!", "Please Insert Name", "error");
+          }
+          else if (vname.test(a) == false) {
+        
+            swal("Error!", "Please Check Your Enter Name is Wrong", "error");
+            
+          }
+          else if (b == "") {
+            swal("Error!", "Please Insert Email", "error");
+          }
+          else if (vemail.test(b)== false){
+          swal("Error!", "Please Check Your Enter Email is Wrong", "error");
+          }
+          else if (c == "") {
+            swal("Error!", "Please Insert Subject", "error");
+          }
+          else if (subject.test(c)== false){
+            swal("Error!", "Please Check Your Enter Subject is Wrong", "error");
+        
+          }
+          else if (d == "") {
+            swal("Error!", "Please Insert Message", "error");
+          }
+          
+          else {
+            swal("Good job!", "Successfully Submited", "success");
+          }
+        }
+      </script>
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+ 

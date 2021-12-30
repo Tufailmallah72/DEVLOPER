@@ -1,0 +1,233 @@
+*
+{
+    margin: 0;
+    padding: 0;
+     
+}
+/* body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+} */
+/* .container
+{
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+} */
+/* .container .card
+{
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background: #fff;
+    margin: 30px 10px;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+} */
+/* .container .card:hover
+{
+    height: 420PX;
+} */
+/* .container .card .imgBx
+{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60PX;
+    left: 20PX;
+    z-index: 1;
+    box-shadow: 0 5PX 20PX rgba(0, 0, 0, 0.2);
+} */
+/* .container .card .imgBx img
+{
+    max-width: 100%;
+    border-radius: 4px;
+}
+.container .card .content
+{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 00.3s ease-in-out;
+}
+.container .card:hover .content
+{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+} */
+h1{
+  color: #2C5364 ;
+}
+h3{
+  color: #2C5364 ;
+}
+ 
+   .content{
+    padding-top: 100px;
+    color: white;
+    text-align: center;
+  }
+  
+ 
+img{
+  border-radius: 5%;
+}
+.card{
+  border-radius: 5%;
+  width: auto;
+}
+p{
+  font-family: monospace;
+}
+
+.navbar-brand{
+  color: white;
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navbar-brand:hover{
+  color:white;
+}
+.navbar-toggler{
+  background-color:#2C5364;
+}
+
+.navbar-nav{
+padding-left: auto;
+font-size: 14px;    
+}
+.nav-item{
+color: white;
+margin-left:2px ;
+ 
+}
+.nav-link:hover{
+color:white;
+
+
+}
+.dropdown-item{
+color:black;
+background-color:dimgray;
+}
+.dropdown-item:hover{
+color:white;
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+ 
+.my_h6_heading{
+  color: #c3c3c3 !important;
+}
+                      
+
+                        /* .gtco-testimonials {
+                          position: relative;
+                          margin-top: 30px;
+                        }
+                    
+                          .owl-stage-outer {
+                            padding: 30px 0;
+                          }
+                        
+                          .owl-nav {
+                            display: none;
+                          }
+                        
+                          .owl-dots {
+                            text-align: center;
+                          }
+                            span {
+                              position: relative;
+                              height: 10px;
+                              width: 10px;
+                              border-radius: 50%;
+                              display: block;
+                              background: #fff;
+                              border: 2px solid #01b0f8;
+                              margin: 0 5px;
+                            }
+                        
+                            .active {
+                              box-shadow: none;
+                            }
+                              span {
+                                background: #01b0f8;
+                                box-shadow: none;
+                                height: 12px;
+                                width: 12px;
+                                margin-bottom: -1px;
+                              }
+                         
+                        
+                          .card {
+                            background: #fff;
+                            box-shadow: 0 8px 30px -7px #c9dff0;
+                            margin: 0 20px;
+                            padding: 0 10px;
+                            border-radius: 20px;
+                            border: 0;
+                          }
+                            .card-img-top {
+                              max-width: 100px;
+                              border-radius: 50%;
+                              margin: 15px auto 0;
+                              box-shadow: 0 8px 20px -4px #95abbb;
+                              width: 100px;
+                              height: 100px;
+                            }
+                        
+                            h5 {
+                              color: #01b0f8;
+                              font-size: 21px;
+                              line-height: 1.3;
+                            }
+                              span {
+                                font-size: 18px;
+                                color: #666666;
+                              }
+                            p {
+                              font-size: 18px;
+                              color: #555;
+                              padding-bottom: 15px;
+                            }
+                          
+                        
+                          .active {
+                            opacity: 0.5;
+                            transition: all 0.3s;
+                          }
+                        
+                          .center {
+                            opacity: 1;
+                        
+                          }
+                            .card-img-top {
+                              max-width: 100%;
+                              height: 120px;
+                              width: 120px;
+                            }
+                    
+                        
+                        @media (max-width: 767px) {
+                          .gtco-testimonials {
+                            margin-top: 20px;
+                          }
+                        } */
